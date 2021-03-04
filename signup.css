@@ -1,0 +1,66 @@
+.sign-up-sec{
+    background-image: url("./assests/header/bg.png");
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+.contain-sign-up-form{
+    background-image: url("./assests/header/form-bg.png");
+    
+    margin-top: 50px;
+    padding: 20px;
+    height: 77vh;
+}
+.logo h3{
+    font-family: 'Neue Haas Grotesk Text Pro Medium';
+font-size: 40px;
+color: #272a2d;
+}
+.sign-up-form p{
+    font-family: 'Neue Haas Grotesk Display Pro';
+font-size: 16px;
+font-weight: 300;
+color: #858585;
+letter-spacing: 0.03em;
+}
+.sign-up-form .form-check-label{
+    font-family: 'NeueHaasDisplay-Roman';
+font-size: 15px;
+color: #858585;
+}
+.sign-up-form .submit{
+    height: 48px;
+width: 220px;
+background-color: #6d049e;
+border-radius: 4px;
+font-family: 'Neue Haas Grotesk Display Pro';
+font-size: 16px;
+font-weight: bold;
+color: #ffffff;
+line-height: 21px;
+}
+.btTxt{
+    height: 20px;
+    width: 133px;
+}
+.sign-in-btn{
+    width: 130px;
+    border-bottom: 1px solid #6d049e;
+    font-family: 'NeueHaasDisplay-Roman';
+font-size: 16px;
+color: #6d049e;
+}
+.field-icon {
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 29px;
+    color:#858585
+  }
+  

@@ -1,0 +1,768 @@
+
+@font-face {
+    font-family: "NeueHaasDisplayMediu";
+    src: url("assests/fonts/NeueHaasDisplayMediu.ttf");
+    /* font-family:"NeueHaasDisplayRoman";
+    src:url("assests/fonts/NeueHaasDisplayRoman.ttf") */
+    
+   
+    }
+    @font-face {
+        
+         font-family:"NeueHaasDisplayRoman";
+        src:url("assests/fonts/NeueHaasDisplayRoman.ttf") 
+        
+       
+        }
+        @font-face {
+        
+            font-family:"NeueHaasDisplayLight";
+           src:url("assests/fonts/NeueHaasDisplayLight.ttf") 
+           
+          
+           }
+           @font-face {
+        
+            font-family:"NeueHaasDisplayBold";
+           src:url("assests/fonts/NeueHaasDisplayBold.ttf") 
+           
+          
+           }
+          
+    
+.general-font{
+    text-shadow: 0px 2px 4px #000000;
+   
+}
+.font-size-28{
+    font-size: 28px;
+}
+.main-color {
+color: #6d049e;
+}
+.contain-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+  .borderd-home{
+    position: relative;
+    border-top:2px solid #6d049e;
+    width: 36px;
+    bottom: 24px;
+    right: 2px;
+}
+  .onOne-header .header-font{
+    font-family: 'NeueHaasDisplayMediu';
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+    text-shadow: 0px 1px 4px 0.3;
+       
+  }
+ .onOne-header a.nav-link {
+    color: white!important;
+}
+.onOne-header button.btn.dropdown-toggle {
+    color: white;
+}
+
+
+.sign-in-btn{
+    font-family: 'NeueHaasDisplayMediu';
+    font-size: 16px;
+    font-weight: 500;
+
+    text-shadow: 0px 1px 4px 0.3;
+color: #6d049e;
+background-color: white;
+height: 40px;
+width: 175px;
+
+}
+.onOneDropDown{
+    font-family:"NeueHaasDisplayMediu" ;
+}
+.onOneDropDown .dropdown-item{
+    color: #808080;
+  
+    font-family: 'NeueHaasDisplayMediu';
+}
+button.header-font.selectItem.btn.dropdown-toggle:focus{
+    box-shadow: unset;
+}
+.onOne-header .selectItem:hover{
+    color:#6d049e!important;
+}
+.onOne-header .selectItem:hover::after {
+    content: "";
+    border: 1px solid #6d049e;
+    position: absolute;
+    display: block;
+    width: 32px;
+    /* height: 5px; */
+}
+/***caption***/
+.carousel-caption {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    z-index: 10;
+ 
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: initial;
+}
+.find-next-caption{
+text-shadow: 0px 2px 4px 0.5;
+font-family: 'NeueHaasDisplayMediu';
+font-size: 65px;
+font-weight: 500;
+color: #ffffff;
+line-height: 65px;
+}
+.find-explain{
+    text-shadow: 0px 2px 4px 0.5;
+    font-family: 'NeueHaasDisplayMediu';
+    font-size: 22px;
+    color: #ffffff;
+    opacity: 0.7;
+    line-height: 35px;
+}
+
+/*****new slider******/
+
+.navbar-nav{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.dropdown-toggle::after {
+
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+.carousel-indicators li {
+    text-indent: unset;
+}
+.next-img{
+    position: absolute;
+    left: 0;
+    
+    width: 68px;
+    height: 22px;
+    bottom: 0px;
+    right: 77px;
+    left: 48%;
+}
+.next-feature{
+    top: 34px;
+}
+.prev-img{
+    position: absolute;
+    left: 40%;
+    top: 34px
+}
+.carousel-reviews li{
+    background-color: unset;
+    /* opacity:0 */
+}
+.header-carousel .carousel-indicators li {
+    box-sizing: content-box;
+    /* -ms-flex: 0 1 auto; */
+
+    align-items: -1000px;
+    cursor: pointer;
+     background-color: unset;
+  
+     border-top: unset; 
+    border-bottom: unset; 
+    
+    margin: 30px;
+    
+}
+
+.header-carousel .carousel-indicators {
+  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    transform: rotate(0deg)!important;   
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 36%!important;
+    width: 100%;
+    color:white;
+    position: absolute;
+    top: 0;
+    bottom: 100px;
+    margin: auto;
+    height: 20px;
+    right: 10px;
+    left: auto;
+    width: auto;
+}
+
+.header-carousel .carousel-indicators li.active::after {
+    content: "";
+    width: 50px;
+    
+    display: block;
+ 
+    border: 1px solid white;
+
+    position: relative;
+    transform: translate(-60px, -17px);
+}
+.header-carousel .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-us p {
+    font-family: "NeueHaasDisplayLight";
+    font-size: 18px;
+color: #767676;
+line-height: 35px;
+margin: 25px 0px 45px 0px;
+}
+.header-carousel .carousel-indicators li {
+    display: block;
+    margin-bottom: unset;
+    border: unset;
+
+}
+
+.header-carousel .carousel-indicators li.active {
+    margin-bottom: unset;
+
+    position: relative;
+    text-shadow: 0px 1px 4px #000000;
+    font-family: 'NeueHaasDisplayMediu';
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+
+
+}
+
+
+
+
+
+
+  .find-place{
+    position: absolute;
+    top: 190px;
+    left: 22px;
+  }
+  .find-place h1{
+   
+    font-size: 65px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 65px;
+  }
+ 
+/***sellRentDropDown**/
+.sellRentDropDown{
+    background: url("assests/header/search-bar.png") no-repeat; 
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    padding: 33px;
+    border-radius: 4px;
+    box-shadow: 0px 13px 10px -10px #dce3f1;
+    width: 86%;
+    top: 74%;
+}
+#nav-profile-tab{
+    color: #272a2d;
+}
+
+
+a#\ nav-home-tab:after {
+    content: "";
+    border-right: 3px solid grey;
+    position: relative;
+    left: 43px;
+}
+.nav-tabs {
+    border-bottom: unset;
+    width: 25%;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: -25px;
+    font-family: 'NeueHaasDisplayMediu';
+}
+.nav-tabs .nav-link{
+
+    border: 0px solid transparent
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #6d049e;
+}
+.brands{
+    margin: 7% auto;
+    padding-left: 5%;
+ width:70%
+}
+.about-img{
+    width: 80%;
+   
+    object-fit: cover;
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    height: 473px;
+}
+.know-more-btn{
+    border-bottom: 1px solid #6d049e;
+   
+    font-family: 'NeueHaasDisplayRoman';
+font-size: 16px;
+color: #6d049e;
+}
+.real-state-companies{
+    background-color:#6d049e;
+    height: 409px;
+
+color:white;
+}
+.real-state-companies h2 {
+    font-family: "NeueHaasDisplayMediu";
+    font-size: 40px;
+font-weight: 500;
+color: #ffffff;
+line-height: 50px;
+opacity: 0.9;
+}
+.drop-title{
+    font-size: 25px;
+    color: #272a2d;
+    font-weight: bold;
+    font-family: 'NeueHaasDisplayMediu';
+}
+.details-sec{
+    position: absolute;
+    top: 46%;
+    left: 20%;
+}
+.countries-no {
+    font-family: 'NeueHaasDisplayRoman';
+    font-size: 27px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.countries-name{
+    
+    font-family:"NeueHaasDisplayLight";
+    font-size: 18px;
+color: #ffffff;
+margin-left: 9px;
+opacity: 0.6;
+
+}
+.how-it-work{
+    margin-top: 85px;
+}
+.how-it-work h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #272a2d;
+    line-height: 50px;
+    font-family: "NeueHaasDisplayMediu";
+    opacity: 0.9;
+}
+.how-it-work p{
+    font-family: "NeueHaasDisplayLight";
+    font-size: 18px;
+color: #767676;
+line-height: 35px;
+}
+.how-work-no-img{
+    width: 60px;
+    height: 60px;
+    
+    
+}
+.steps{
+    font-family: "NeueHaasDisplayMediu";
+    font-size: 20px;
+    font-weight: 500;
+    color: #272a2d;
+    text-align: justify;
+    line-height: 32px;
+    opacity: 0.9;
+    margin-left: 15px;
+}
+.steps-desc{
+    margin-left: 81px;
+    margin-top: -19px;
+}
+
+.section-space{
+    margin-top: 95px;
+}
+.title{
+    font-family: "NeueHaasDisplayMediu";
+    opacity: 0.9;
+    font-size: 40px;
+    font-weight: 500;
+    color: #272a2d;
+    line-height: 50px;
+}
+.why-title{
+    font-family: NeueHaasDisplayBold;
+    font-size: 20px;
+    color: rgba(39, 42, 45, 1);
+    text-align: center;
+    line-height: 32px;
+    margin-top:6px
+}
+.paragraph{
+    font-family: 'NeueHaasDisplayLight';
+    font-size: 18px;
+    color: #767676;
+    
+    line-height: 35px;
+}
+
+.roman-type-title{
+    font-family: 'NeueHaasDisplayRoman';
+   
+font-size: 18px;
+color: rgba(69, 69, 69, 1);
+}
+.contain-data{
+    height: 300px;
+    width: 325px;
+}
+.reviews-content{
+    padding: 25px 0px 15px 0px;
+}
+.reviews-content h2{
+    font-family: 'NeueHaasDisplayMediu';
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 50px;
+}
+
+.contain-data:hover{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 38px 0px rgba(7, 42, 68, 0.1) ;
+}
+.feature-card{
+    background-color: #ffffff;
+    border-radius: 6px;
+  
+}
+.feature-card:hover{
+  
+    box-shadow: 0px 8px 55px 0px rgba(7, 42, 68, 0.15);
+}
+.choose-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    font-family: 'NeueHaasDisplay-Roman';
+    font-size: 20px;
+    color: #272a2d;
+}
+.rate{
+    font-family: 'NeueHaasDisplay-Roman';
+    font-size: 13px;
+    color: #1d1d1d;
+    line-height: 14px;
+}
+
+.details-btn{
+   
+background-color: #6d049e;
+color:white;
+margin-bottom: 11px;
+height: 40px;
+width: 149px
+}
+.selected-country{
+    font-family: 'Poppins';
+font-size: 18px;
+font-weight: 500;
+color: #767676;
+margin-left: 15px;
+}
+.dropdown-border:after {
+    content: "";
+    border-right: 2px solid #bbb4b4;
+    position: relative;
+   
+    
+    right: 206px;
+    z-index: 2;
+    height: 67px;
+    bottom: 89px;
+    display: block;
+}
+h2.font-type {
+    font-family: "NeueHaasDisplayMediu";
+    opacity: 0.8;
+}
+.review-clients{
+     
+background-color: #6d049e;
+height: 700px;
+
+}
+.review-text{
+    font-family: "NeueHaasDisplayLight";
+    font-size: 18px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+line-height: 35px;
+}
+.review-clients .carousel-indicators{
+    bottom: -62px;
+}
+.dotted-img{
+    width: 3px;
+    height: 190px;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    left: 30px;
+}
+
+.search-img{
+    height: 62px;
+width: 62px;
+}
+.client-view{
+    height: 360px;
+width: 326px;
+background-color: #ffffff;
+border-radius: 6px;
+box-shadow: 0px 13px 10px -10px #38135b;
+}
+.review-title{
+    font-family: 'NeueHaasDisplay-Bold';
+font-size: 18px;
+color: #272a2d;
+}
+.client-name{
+    font-family: 'NeueHaasDisplay-Light';
+font-size: 14px;
+color: #767676;
+}
+.review-content{
+    font-family: 'NeueHaasDisplay-Roman';
+font-size: 15px;
+color: #767676;
+}
+.client-view:hover{
+    background-color: #38135b;
+border-radius: 6px;
+box-shadow: 0px 13px 10px -10px #000000;
+
+}
+.contact-us{
+    margin-bottom: 60px;
+}
+/* .contact-us p {
+    font-family: 'NeueHaasDisplay-Light';
+    font-size: 18px;
+    color: #767676;
+    line-height: 35px;
+} */
+.client-view:hover h2{
+    color:white;
+}
+.client-view:hover p{
+    color:white;
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background-color: #6d049e;
+}
+#footer h5{
+	
+    
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+.white-logo{
+    height: 68px;
+width: 90px;
+background-color: #ffffff;
+border-radius: 4px;
+}
+.logo-title{font-family: 'Poppins-Regular';
+    font-size: 20px;
+    color: #6d049e;}
+
+
+.subscribe-bg{
+
+background-color: #f7faff;
+border-radius: 4px;
+box-shadow: 0px 13px 10px -10px #38135b;
+position: relative;
+z-index: 1000;
+top: 50px;
+height: 180px;
+width: 90%;
+margin: auto;
+}
+.subscribe-img{
+    position: relative;
+    /* top: -150px; */
+    bottom: 81px;
+    height: 100%;
+    width: 100%;
+}
+.subscribeBtn{
+
+    height: 40px;
+    width: 165px;
+    background-color: #6d049e;
+    color:white;
+    width: 133px;
+    font-family: 'NeueHaasDisplayRoman';
+}
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #272a2d;
+    font-family: "NeueHaasDisplayMediu";
+    padding-top: 20px;
+    margin-bottom: 24px;
+}
+.follow-us{
+    font-family: 'NeueHaasDisplayMediu';
+}
+.follow-us-pesoude::after {
+    content: "";
+    border-right: 2px solid white;
+    margin-left: 15px;
+    padding-top: 0px;
+    margin-bottom: 25px;
+}
+.social-icons{
+    font-size: 25px;
+    
+    color: white;
+}
+.contact-icon{
+    margin-top: 13px;
+    font-size: 22px;
+    color: white;
+}
+#footer a{
+  font-family: "NeueHaasDisplayLight";
+  font-size: 15px;
+color: rgba(255, 255, 255, 1);
+line-height: 25px;
+
+}
+#footer ul{
+    line-height: 35px;
+}
+.footer-text{
+    font-family: 'NeueHaasDisplayRoman';
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    margin-top: 7px;
+}
+.copyright{
+    font-family: 'NeueHaasDisplayLight';
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.form-control::placeholder { 
+    font-family: 'NeueHaasDisplayRoman';
+    font-size: 15px;
+    color: rgba(172, 177, 192, 1);
+}
+.rent-sell-icon{
+    
+    font-size: 18px;
+font-weight: 500;
+color: rgba(118, 118, 118, 1);
+}
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
